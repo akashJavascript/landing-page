@@ -123,3 +123,25 @@ a{
     align-items: center;
 }
 
+.quote-container{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    }
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color:#1F2937;
+}
+.quote-text-container{
+    width: 70%;
+}
+.credit{
+    float: right;
+    font-weight: 900;
+    font-size: 20px;
+}
