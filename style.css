@@ -16,6 +16,8 @@
     padding: 0;
     }
     body{
+        overflow-x: hidden;
+
         display: flex;
         flex-direction:  column;
         font-family: 'Roboto';
@@ -183,3 +185,16 @@
     color:#e5e7eb;
     border:2px solid #e5e7eb;
     }
+
+.footer{
+    background-color: #1F2937;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-text{
+    color: #e5e7eb;
+}
